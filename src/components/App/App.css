@@ -9,7 +9,19 @@
   margin-bottom: 1em;
 }
 
-.App-title {
-  font-size: 1.5em;
+.galleryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+  margin: 40px;
 }
 
+.galleryItem {
+  text-align: center;
+}
+
+.galleryItem img {
+  max-width: 100%;
+  height: auto;
+}
